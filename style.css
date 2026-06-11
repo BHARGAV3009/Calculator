@@ -1,20 +1,20 @@
-body{
+body {
   margin: 0;
-  width = 50vh;
+  width: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: hsl(0, 0%, 95%);
 }
-#calculator{
-  font-family: Arial,sans-serif;
-  background-color: hsl(0,0%,15%);
+#calculator {
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
   max-width: 500px;
   overflow: hidden;
 }
-#display{
+#display {
   width: 100%;
   padding: 20px;
   font-size: 5rem;
@@ -23,13 +23,13 @@ body{
   background-color: hsl(0, 0%, 0%);
   color: white;
 }
-#keys{
+#keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 25px;
 }
-button{
+button {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -40,27 +40,30 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
-button:hover{
-  background-color: hsl(0,0%,40%);
+button:hover {
+  background-color: hsl(0, 0%, 40%);
 }
-button:active{
-  background-color: hsl(0,0%,50%);
+button:active {
+  background-color: hsl(0, 0%, 50%);
 }
-.operator-btn{
+.operator-btn {
   background-color: hsl(0, 0%, 20%);
 }
-.operator-btn:hover{
+.operator-btn:hover {
   background-color: hsl(0, 0%, 35%);
 }
-.operator-btn:active{
+.operator-btn:active {
   background-color: hsl(0, 0%, 45%);
 }
-.equals{
+.equals {
   background-color: hsl(35, 100%, 50%);
 }
-.equals:hover{
+.equals:hover {
   background-color: hsl(35, 100%, 65%);
 }
-.equals:active{
+.equals:active {
   background-color: hsl(35, 100%, 75%);
+}
+#delete-btn {
+  background-color: hsl(0, 100%, 50%);
 }
